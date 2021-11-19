@@ -1,0 +1,18 @@
+import imgSilas from "./img/silas.jpeg"
+import nodejs from "./icons/nodejs.svg"
+import nosql from "./icons/nosql.svg"
+import aws from "./icons/aws.svg"
+import mysql from "./icons/mysql.svg"
+import java from "./icons/java.svg"
+import js from "./icons/js.svg"
+import github from "./icons/github.svg"
+import spring from "./icons/spring.svg"
+import react from "./icons/react.svg"
+import docker from "./icons/docker.svg"
+import sass from "./icons/sass.svg"
+import bootstrap from "./icons/bootstrap.svg"
+import lua from "./icons/lua.svg"
+import linkedin from "./icons/linkedin.svg"
+import githubfooter from "./icons/githubfooter.svg"
+
+export { imgSilas, nodejs, nosql, aws, mysql, java, js, github, spring, react, docker, sass, bootstrap, lua, linkedin, githubfooter }

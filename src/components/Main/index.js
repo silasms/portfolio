@@ -1,19 +1,6 @@
 import { Component } from "react";
 import { Principal, Formacao, Cursando, Habilidades, Basico, Intermediario } from "./style"
-import imgSilas from "../assets/img/silas.jpeg"
-import nodejs from "../assets/icons/nodejs.svg"
-import nosql from "../assets/icons/nosql.svg"
-import aws from "../assets/icons/aws.svg"
-import mysql from "../assets/icons/mysql.svg"
-import java from "../assets/icons/java.svg"
-import js from "../assets/icons/js.svg"
-import github from "../assets/icons/github.svg"
-import spring from "../assets/icons/spring.svg"
-import react from "../assets/icons/react.svg"
-import docker from "../assets/icons/docker.svg"
-import sass from "../assets/icons/sass.svg"
-import bootstrap from "../assets/icons/bootstrap.svg"
-import lua from "../assets/icons/lua.svg"
+import { imgSilas, nodejs, nosql, aws, mysql, java, js, github, spring, react, docker, sass, bootstrap, lua } from "../assets/exports.js"
 
 const logos = [
     {img: mysql, texto: "mysql"},
