@@ -13,6 +13,7 @@ import react from "../assets/icons/react.svg"
 import docker from "../assets/icons/docker.svg"
 import sass from "../assets/icons/sass.svg"
 import bootstrap from "../assets/icons/bootstrap.svg"
+import lua from "../assets/icons/lua.svg"
 
 const logos = [
     {img: mysql, texto: "mysql"},
@@ -23,7 +24,8 @@ const logos = [
     {img: react, texto: "react"},
     {img: docker, texto: "docker"},
     {img: sass, texto: "sass"},
-    {img: bootstrap, texto: "bootstrap"}
+    {img: bootstrap, texto: "bootstrap"},
+    {img: lua, texto: "lua"}
 ]
 
 export default class Main extends Component{
