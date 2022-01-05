@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Principal, Formacao, Cursando, Habilidades, Basico, Intermediario } from "./style"
-import { imgSilas, nodejs, nosql, aws, mysql, java, js, github, spring, react, docker, sass, bootstrap, lua } from "../assets/exports.js"
+import { silas, nodejs, nosql, aws, mysql, java, js, github, spring, react, docker, sass, bootstrap, lua } from "../assets/exports.js"
 
 const logos = [
     {img: mysql, texto: "mysql"},
@@ -22,7 +22,7 @@ export default class Main extends Component{
             <Principal id="perfil">
                     <h2>Perfil</h2>
                 <div>
-                    <img src={imgSilas} alt="Picture Silas"/>
+                    <img src={silas} alt="Silas"/>
                     <p>Sou estudante de programação há uns 2 anos. Comecei á mexer com computador com 3 anos, meu primeiro contato com programação eu tinha 12 anos, comecei com o delphi 7, amei criar softwares, só que na época não tinha tanto conteúdo de programação na internet, daí eu acabei deixando de lado. Em 2018, voltei me interessei de novo nesse negócio de programação, 2019 comecei estudando LUA, daí esse ano(2021), consegui uma bolsa na digital house(plataforma de ensino) horário integral, com essa oportunidade eu me empolguei com a área e cá estou eu.</p>
                 </div>
             </Principal>
